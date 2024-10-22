@@ -23,8 +23,5 @@ fetch("./gamedirs.json")
         image.setAttribute("class", "gameimage")
         div.appendChild(image)
         image.setAttribute("onerror","this.src='images/noimage.png';")
-        // console.log(string3)
-        // console.log(obj.file);
-        
     }
 });

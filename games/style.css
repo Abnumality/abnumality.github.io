@@ -45,7 +45,7 @@ body {
     justify-items: center;
     width: max-content;
     z-index: 99999999 !important;
-    font-family: 'Ubuntu';
+    font-family: 'Poppins';
     font-size: larger;
 }
 
@@ -56,7 +56,7 @@ body {
     display: inline-block;
     position: absolute;
     border-radius: 3%;
-    font-family: 'Ubuntu';
+    font-family: 'Poppins';
 }
 
 ::-webkit-scrollbar {
@@ -96,7 +96,7 @@ body {
     cursor: pointer;
     color: white;
     text-align: center;
-    font-family: 'Helvetica';
+    font-family: 'Poppins';
     font-size: 100%;
     display: inline-flex;
     justify-content: center;
@@ -126,7 +126,7 @@ body {
     cursor: pointer;
     color: white;
     text-align: center;
-    font-family: 'Helvetica';
+    font-family: 'Poppins';
     font-size: 100%;
     display: inline-flex;
     justify-content: center;
