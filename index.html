@@ -13,11 +13,14 @@
         <meta name="author" content="Abnumality">
     </head>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    if (window.location.hostname == "abnumality.github.io") {
+        console.log("Official location!")
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-  gtag('config', 'G-QRD26222QV');
+        gtag('config', 'G-QRD26222QV');
+    }
 </script>
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
         <link rel="stylesheet" href="style.css" />
