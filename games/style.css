@@ -6,12 +6,15 @@ body {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    margin: 0px;
 }
 
 #wrapper {
+    padding-top: 3em;
+    padding-bottom: 3em;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 15px;
+    gap: 3em;
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -24,7 +27,7 @@ body {
     outline-style: solid;
     height: 23vw;
     width: 15vw;
-    border-radius: 8%;
+    border-radius: 3em;
     justify-items: center;
     align-content: center;
     justify-content: center;
@@ -75,11 +78,8 @@ body {
     width: 60%;
     height: 65%;
     border-style: none;
-    margin-top: 5%;
-    align-self: center;
     position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, -65%);
 }
 
 #cloakbutton {
